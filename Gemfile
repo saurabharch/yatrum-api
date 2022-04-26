@@ -49,7 +49,7 @@ gem 'acts_as_votable', '~> 0.10.0'
 
 
 # Mail Chimp Gem
-gem 'gibbon'
+gem 'gibbon', '>= 3.4.4'
 
 # SendGrid For Mailr
 gem 'sendgrid-rails', '~> 2.0'
