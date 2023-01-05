@@ -77,7 +77,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 
 # Http Party
-gem "httparty"
+gem "httparty", ">= 0.21.0"
 
 gem 'newrelic_rpm'
 
