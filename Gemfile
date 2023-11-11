@@ -55,7 +55,7 @@ gem 'gibbon'
 gem 'sendgrid-rails', '~> 2.0'
 
 # Rails Admin
-gem 'rails_admin', '~> 1.0'
+gem 'rails_admin', '~> 3.0', '>= 3.0.0'
 
 # Devise for User Authentication
 gem 'devise'
