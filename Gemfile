@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
+gem 'rails', '~> 7.1.5', '>= 7.1.5.2'
 # Use sqlite3 as the database for Active Record
 gem 'pg'
 # Use Puma as the app server
@@ -16,7 +16,7 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'jwt'
 gem 'simple_command'
 gem 'active_model_serializers', '~> 0.10.0'
-gem 'annotate'
+gem 'annotate', '>= 3.2.0'
 gem 'rack-cors', :require => 'rack/cors'
 gem 'httpclient', '~> 2.8', '>= 2.8.3'
 # Use Capistrano for deployment
@@ -44,7 +44,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'oj', '~> 2.18.0'
 gem 'oj_mimic_json'
-gem 'acts-as-taggable-on', '~> 4.0'
+gem 'acts-as-taggable-on', '~> 5.0', '>= 5.0.0'
 gem 'acts_as_votable', '~> 0.10.0'
 
 
@@ -55,7 +55,7 @@ gem 'gibbon'
 gem 'sendgrid-rails', '~> 2.0'
 
 # Rails Admin
-gem 'rails_admin', '~> 1.0'
+gem 'rails_admin', '~> 3.0', '>= 3.0.0'
 
 # Devise for User Authentication
 gem 'devise'
