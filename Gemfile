@@ -49,7 +49,7 @@ gem 'acts_as_votable', '~> 0.10.0'
 
 
 # Mail Chimp Gem
-gem 'gibbon'
+gem 'gibbon', '>= 3.0.2'
 
 # SendGrid For Mailr
 gem 'sendgrid-rails', '~> 2.0'
@@ -82,7 +82,7 @@ gem "httparty"
 gem 'newrelic_rpm'
 
 # Sentry
-gem "sentry-raven"
+gem "sentry-raven", ">= 3.0.0"
 
 # Impressionist
 gem 'impressionist'
